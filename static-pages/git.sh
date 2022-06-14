@@ -1,6 +1,7 @@
 #! /bin/bash
 
-git commit -m "test3"
+git pull
+git commit -m "tet3"
 git push origin master
 
 read username

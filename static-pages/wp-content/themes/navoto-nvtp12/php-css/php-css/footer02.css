@@ -1,0 +1,98 @@
+
+/**============================footer Block 2===============================**/
+footer#footer_block2{
+	 background-color: var(--color-code07);
+}
+footer#footer_block2 h2.headingH2, footer#footer_block2 h5.headingH5, footer#footer_block2 a{
+    font-family: var(--primary-family);
+}
+footer#footer_block2 h2.headingH2{
+    color: var(--color-white);
+    margin-bottom: 0;
+    font-weight: bold;
+}
+footer#footer_block2 h5.headingH5{
+    color: var(--color-white);
+    margin-bottom: 0;
+    font-weight: 600;
+}
+footer#footer_block2 .link_ftr a{
+    color: var(--color-white);
+}
+footer#footer_block2 .row > div.col-md-12{
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 46px;
+}
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 38px;
+}
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 38px;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+footer#footer_block2 .row > div.col-md-12{
+    gap: 34px;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 30px;
+}   
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 22px;
+} 
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 20px;
+}  
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 30px;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 800px) and (max-width:900px) and (orientation: landscape){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 22px;
+} 
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 28px;
+}
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:799px) and (orientation: landscape){
+footer#footer_block2 .row > div.col-md-12{
+    gap: 24px;
+}
+}
+/**==========================end footer Block 2===============================**/

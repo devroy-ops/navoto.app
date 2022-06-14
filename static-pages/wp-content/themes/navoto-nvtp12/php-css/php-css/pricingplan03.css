@@ -1,0 +1,920 @@
+
+/**============================Pricing Plan Block 3===============================**/
+section#pricingplan_block3{
+	 background-color: var(--color-white);
+}
+section#pricingplan_block3 .hdng_header .headingH5{
+    color: var(--color-code07);
+    text-transform: capitalize;
+}
+section#pricingplan_block3 .hdng_header .headingH2{
+    color: var(--color-code07);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+section#pricingplan_block3 .hdng_header .paragraph_p2{
+    color: var(--color-code07);
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 600;
+}
+section#pricingplan_block3 .pricingplan_bx{
+    
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding-bottom: 150px;
+    position: relative;
+    height: 100%;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 40px 30px 2px 30px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH3{
+   color: var(--color-code07); 
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   color: var(--color-code07); 
+   margin-bottom: 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    font-weight: 600;
+    color: var(--color-code07);
+  
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 40px;
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 198px;
+   border-radius: 50px;
+   text-transform: uppercase;
+   transition: all 0.5s;
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary:hover{
+    background-color: var(--color-white);
+    color: var(--color-code07);
+    border:1px solid var(--color-code07);
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+  
+   border-radius: 0px 0px 16px;
+   padding:30px 30px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   color: var(--color-code07); 
+   margin-bottom: 16px; 
+   font-weight: 400;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+    padding-right: 6px;
+   font-size: 21px;
+   color: var(--color-code07);
+}
+
+section#pricingplan_block3 .pricingplan_bx span .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: none;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+
+section#pricingplan_block3 .pricing_content a{ font-size: 26px; line-height:25px; font-weight: 600; border:1px solid var( --color-code07);color: var(--color-code07); width: 200px; display: block;background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);  border-radius:40px; text-align: center; padding: 20px 20px; margin: 0px auto;position: absolute;
+    bottom: 65px; left: 0px; right: 0;}
+
+section#pricingplan_block3 .pricing_content a:hover{ color:var(--color-white); background:var(--color-black);}
+
+    
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding-bottom: 120px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 200px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 16px 18px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 30px 35px 10px 35px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 28px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 148px;
+   border-radius: 35px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:0px 30px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 12px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 4px;
+   font-size: 16px;
+
+}
+
+}
+
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding-bottom: 120px;
+}
+section#pricingplan_block3 .pricing_content a {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 200px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 16px 18px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 30px 35px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 12px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 10px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 128px;
+   border-radius: 30px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:5px 30px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 8px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 4px;
+   font-size: 16px;
+}
+
+}
+
+
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding-bottom: 120px;
+
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 200px;
+    display: block;
+    background: var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 16px 18px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    right: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 25px 28px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 10px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 10px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 148px;
+   border-radius: 35px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:5px 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 8px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 4px;
+   font-size: 16px;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding-bottom: 120px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 180px;
+    display: block;
+    background: var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 12px 14px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 25px 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 10px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 10px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 118px;
+   border-radius: 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:5px 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 8px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 4px;
+   font-size: 14px;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+   padding-bottom: 80px;
+   
+   
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 115px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 7px 13px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 > .container {
+    max-width: 100%;
+    padding:0 40px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 25px 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 6px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 18px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 90px;
+   border-radius: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:15px 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 6px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 3px;
+   font-size: 12px;
+}
+
+}
+
+
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   padding-bottom: 80px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 115px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 7px 13px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 18px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 4.5px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 0px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 83px;
+   border-radius: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 12px;
+   border-radius: 0px 0px 12px 12px;
+   padding:8px 15px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 5px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 1px;
+   font-size: 10px;
+} 
+
+}
+
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+   padding-bottom: 80px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 115px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 7px 13px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 18px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 4.5px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 5px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 83px;
+   border-radius: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 8px 8px;
+   padding:5px 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 5px; 
+   font-size: 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 1px;
+   font-size: 10px;
+}
+section#pricingplan_block3 .row > div.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width:767px) {
+
+
+    section#pricingplan_block3 .pricingplan_bx{
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 20px;
+      padding-bottom: 80px;
+    }
+    
+    section#pricingplan_block3 .pricing_content a {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        border: 1px solid var( --color-code07);
+        color: var(--color-code07);
+        width: 115px;
+        display: block;
+        background: var(--color-white);
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 40px;
+        text-align: center;
+        padding: 7px 13px;
+        margin: 0px auto;
+        position: absolute;
+        bottom: 25px;
+        left: 0px;
+        right: 0;
+    }
+    
+    section#pricingplan_block3 .pricingplan_bx .headingH6 {
+        font-weight: 600;
+        color: var(--color-code07);
+        border-bottom: 1px dashed var(--color-black);
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 140%;
+
+    }
+    
+    section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+        padding: 18px;
+        
+
+    }
+
+    section#pricingplan_block3 .pricingplan_bx .headingH3 {
+        color: var(--color-code07);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        
+    }
+
+
+    section#pricingplan_block3 .pricingplan_bx .headingLarge{
+       margin-bottom: 4.5px;
+       font-size: 30px;
+          line-height: 100%;
+
+    }
+    section#pricingplan_block3 .pricingplan_bx .headingH6{
+        margin-bottom: 5px
+    }
+    section#pricingplan_block3 .pricingplan_bx .btn-primary{
+       max-width: 83px;
+       border-radius: 20px;
+    }
+    section#pricingplan_block3 .pricingplan_bx .pricing_content{
+       border-radius: 0px 0px 8px 8px;
+       padding:5px 25px;
+    }
+    section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+       margin-bottom: 5px; 
+       font-size: 13px;
+    }
+    section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+        margin-bottom: 0;
+    }
+    section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+       padding-right: 1px;
+       font-size: 10px;
+    }
+    section#pricingplan_block3 .row > div.col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 8px;
+        padding-left: 8px;
+
+    }
+
+    section#pricingplan_block3 .pricingplan_bx >  div {
+        max-width: 180px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 800px) and (max-width:900px) and (orientation: landscape){
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+   padding-bottom: 80px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 115px;
+    display: block;
+    background:var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 7px 13px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+section#pricingplan_block3 .pricingplan_bx >  div {
+    max-width: 200px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto;
+}
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 20px;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 18px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 4.5px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 8px
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 8px 8px;
+   padding:5px 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 5px; 
+   font-size: 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 1px;
+   font-size: 8px;
+}
+
+}
+
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) {
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 90px;
+    display: block;
+    background: var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 3px 9px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 15px;
+}
+
+section#pricingplan_block3 .pricingplan_bx >  div {
+    max-width: 180px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 4.5px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 5px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 83px;
+   border-radius: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 8px 8px;
+   padding:5px 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 5px; 
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 1px;
+   font-size: 10px;
+}
+  
+}
+
+
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:480px) {
+
+section#pricingplan_block3 .pricingplan_bx{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+}
+
+section#pricingplan_block3 .pricingplan_bx >  div {
+    max-width: 180px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto;
+}
+
+section#pricingplan_block3 .pricingplan_bx .pricing_hdr{
+    padding: 18px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingLarge{
+   margin-bottom: 4.5px;
+}
+section#pricingplan_block3 .pricingplan_bx .headingH6{
+    margin-bottom: 16px
+}
+section#pricingplan_block3 .pricingplan_bx .btn-primary{
+   max-width: 83px;
+   border-radius: 20px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content{
+   border-radius: 0px 0px 8px 8px;
+   padding:0px 25px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li{
+   margin-bottom: 5px; 
+   font-size: 13px;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li:last-child{
+    margin-bottom: 0;
+}
+section#pricingplan_block3 .pricingplan_bx .pricing_content ul li i{
+   padding-right: 3px;
+   font-size: 10px;
+}
+
+section#pricingplan_block3 .pricing_content a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    border: 1px solid var( --color-code07);
+    color: var(--color-code07);
+    width: 115px;
+    display: block;
+    background: var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    padding: 7px 13px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    right: 0;
+}
+
+
+section#pricingplan_block3 .pricingplan_bx .headingH6 {
+    font-weight: 600;
+    color: var(--color-code07);
+    border-bottom: 1px dashed var(--color-black);
+    padding-bottom: 15px;
+}
+
+}
+/**==========================end Pricing Plan Block 3===============================**/

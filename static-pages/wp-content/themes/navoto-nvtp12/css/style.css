@@ -1,0 +1,1111 @@
+
+/** for Grid system**/
+@import url(flexgrid.css);
+
+/** for fonts**/
+@import url(fonts.css);
+
+/** for theme color**/
+@import url(theme-color.css);
+
+/** for font awesome**/
+@import url(fontawesome/css/all.min.css);
+
+
+/*========Common Css=========*/
+
+:root {
+  --primary-family: 'Open Sans';
+  /**   'Roboto';  **/
+  /**   'Lato';  **/
+  /**   'Open Sans';  **/
+  /**   'Quicksand'  **/
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Brands"!important;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free"!important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-family);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.posRel{
+    position: relative;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/**-------default sizes---------**/
+
+form#contact_form .form-groups {
+    position: relative;
+}
+form#contact_form .error_red_validate {
+    color: red;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background: #fff;
+    padding: 2px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    z-index: 9;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: var(--primary-family);
+    box-shadow: 0 2px 5px -3px;
+}
+section#calltoaction_block9 div.form-bx button {
+    background: linear-gradient(264.37deg, #0F4894 -29.48%, #10297C 116.42%);
+    border-radius: 50px;
+    margin: 30px 0px 0px;
+}
+form#contact_form .form-groups label + .error_red_validate {
+    top: 4px;
+    right: 10px;
+    left: unset;
+}
+@media screen and (max-width:580px){
+form#contact_form .error_red_validate {
+    padding: 0px 10px;
+    font-size: 11px;
+}
+}
+
+.headingH1, h1{
+    font-size: 110px;
+    line-height: 120%;
+    font-family: var(--primary-family);
+}
+.headingLarge{
+    font-size: 66px;
+    line-height: 120%;
+    font-family: var(--primary-family);
+    margin:0 0 38px;
+    font-style: normal;
+    font-weight: bold; 
+} 
+.headingH2, h2{
+    font-size: 60px;
+    line-height: 120%;
+    font-family: var(--primary-family);
+    margin:0 0 38px;
+    font-style: normal;
+    font-weight: bold;
+}
+.headingH3, h3{
+    font-size: 36px;
+    line-height: 130%;
+    font-family: var(--primary-family);
+    margin:0 0 16.91px;
+    font-weight: 700;
+}
+.headingH4, h4{
+    font-size: 32px;
+    line-height: 140%;
+    font-family: var(--primary-family);
+    margin:0 0 32px;
+}
+.headingH5, h5{
+    font-size: 24px;
+    line-height: 150%;
+    font-family: var(--primary-family);
+    margin:0 0 32px;
+     font-style: normal;
+    font-weight: bold;
+}
+.headingH6, h6{
+    font-size: 20px;
+    line-height: 140%;
+    font-family: var(--primary-family);
+    margin:0 0 22.03px;
+    font-weight: 700;
+}
+.paragraph_p1, p{
+    font-size: 46px;
+    line-height: 150%;
+    font-family: var(--primary-family);
+}
+.paragraph_p2{
+    font-size: 30px;
+    line-height: 160%;
+    font-style: normal;
+    font-weight: bold;
+    font-family: var(--primary-family);
+    margin:0 0 76px;
+}
+.paragraph_p3{
+    font-size: 22px;
+    line-height: 150%;
+    font-family: var(--primary-family);
+    font-weight: 400;
+    margin:0 0 35.66px;
+}
+.paragraph_p4{
+    font-size: 20px;
+    line-height: 150%;
+    font-family: var(--primary-family);
+}
+.list-items, li{
+    font-size: 28px;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: var(--primary-family); 
+}
+.blockquote_txt, blockquote{
+    font-size: 28px;
+    line-height: 140%;
+    font-family: var(--primary-family); 
+    margin-bottom: 60px;
+    font-weight: 600;  
+}
+.form-controls, input, textarea, select{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: var(--primary-family);
+  line-height: 150%;
+  padding: 0 20px;
+  border: none;
+  height: 80px;
+}
+.btn-primary, button{
+    height: 80px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background-color: inherit;
+    font-style: normal;
+    font-weight: bold;
+    width: 294px;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: var(--primary-family);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+} 
+.bg-primary{
+    background-color: var(--color-code07);
+    color: var(--color-white);
+}
+.outline-primary{
+    border: 2px solid var(--color-code07);
+}
+button{
+  cursor: pointer;
+}
+
+.radius8{border-radius:8px;}
+.radius12{border-radius:12px;}
+.radius16{border-radius:16px;}
+.radius30{border-radius:30px;}
+.radius50{border-radius:50px;}
+.radius75{border-radius:75px;}
+
+.form-bx form{
+   gap: 48px;
+}
+.nom{
+    margin: 0!important;
+}
+.nop{
+    padding: 0!important;
+}
+.theme_gap_mb{
+ margin-bottom: 48px;   
+}
+
+ul.main-menus{
+    position: relative;
+}
+ul.main-menus ul.sub-menu{
+ position: absolute;
+ left: 0;
+ width: 300px;
+ opacity: 0;
+ visibility: hidden;
+ height: 0;
+ display: flex;
+ flex-direction: column;
+ gap: 0px!important;
+ top: 20px;
+ padding-top: 20px!important;
+}
+ul.main-menus ul.sub-menu li{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--color-code02);
+}
+ul.main-menus > li:hover ul.sub-menu{
+    z-index: 999;
+    background-color: var(--color-white);
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+ul.main-menus ul.sub-menu li a{
+    display: block;
+    width: 100%;
+}
+
+
+
+/**============================start media query=============================**/
+
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+.section_padding{
+    padding: 184px 0;
+} 
+.btn-groups{
+    gap: 48px;
+} 
+.theme_radius{
+  border-radius:75px;
+}
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+.section_padding{
+    padding: 138px 0;
+}
+.headingLarge{
+    font-size: 50px;
+    margin:0 0 30px;
+}
+.headingH1, h1{
+    font-size: 80px;
+}    
+.headingH2, h2{
+   font-size: 46px;
+   margin: 0 0 30px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 28px;
+    margin:0 0 13px;
+}
+.headingH4, h4{
+    font-size: 24px;
+    margin:0 0 27px;
+}
+.headingH5, h5{
+   font-size: 18px;
+   margin: 0 0 26px; 
+}
+.headingH6, h6{
+    font-size: 15px;
+    margin:0 0 18px;
+}
+
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 58px;
+}
+.paragraph_p3{
+    font-size: 16px;
+    margin: 0 0 32px;
+}
+.paragraph_p4{
+    font-size: 14px;
+}
+.blockquote_txt, blockquote{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.list-items, li{
+    font-size: 22px;
+}
+.btn-groups{
+    gap: 32px;
+}
+.form-bx form{
+    gap: 32px;
+}
+.theme_gap_mb{
+  margin-bottom: 32px;   
+}
+.btn-primary, button{
+    max-width: 226px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 0;
+} 
+.form-controls, input, textarea, select{
+  height: 60px;
+  font-size: 20px;
+} 
+.theme_radius{
+  border-radius:50px;
+} 
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+.section_padding{
+    padding: 118px 0;
+}
+.headingLarge{
+    font-size: 46px;
+    margin:0 0 28px;
+}   
+.headingH1, h1{
+    font-size: 70px;
+}    
+.headingH2, h2{
+   font-size: 38px;
+   margin: 0 0 28px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 26px;
+    margin:0 0 13px;
+}
+.headingH4, h4{
+    font-size: 22px;
+    margin:0 0 26px;
+}
+.headingH5, h5{
+   font-size: 16px;
+   margin: 0 0 24px; 
+}
+.headingH6, h6{
+    font-size: 15px;
+    margin:0 0 16px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 42px;
+}
+.paragraph_p3{
+    font-size: 16px;
+     margin: 0 0 28px;
+}
+.paragraph_p4{
+    font-size: 14px;
+}
+.blockquote_txt{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.list-items, li{
+    font-size: 20px;
+}
+.btn-groups{
+    gap: 24px;
+}
+.form-bx form{
+    gap: 24px;
+}
+.theme_gap_mb{
+  margin-bottom: 24px;   
+}
+.btn-primary, button{
+    max-width: 200px;
+    font-size: 16px;
+    height: 55px;
+}
+.form-controls, input, textarea, select{
+  height: 55px;
+  font-size: 16px;
+} 
+.theme_radius{
+  border-radius:50px;
+} 
+}
+
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+.section_padding{
+    padding: 118px 0;
+}    
+.headingLarge{
+    font-size: 46px;
+    margin:0 0 28px;
+} 
+.headingH1, h1{
+    font-size: 65px;
+}  
+.headingH2, h2{
+   font-size: 38px;
+   margin: 0 0 28px;
+}
+.headingH3, h3{
+    font-size: 24px;
+    margin:0 0 11px;
+}
+.headingH4, h4{
+    font-size: 20px;
+    margin:0 0 24px;
+}
+.headingH5, h5{
+   font-size: 16px;
+   margin: 0 0 24px; 
+}
+.headingH6, h6{
+    font-size: 14px;
+    margin:0 0 14px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 42px;
+}
+.paragraph_p3{
+    font-size: 16px;
+    margin: 0 0 26px;
+}
+.paragraph_p4{
+    font-size: 14px;
+}
+.blockquote_txt{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.list-items, li{
+    font-size: 20px;
+}
+.btn-groups{
+    gap: 24px;
+}
+.form-bx form{
+    gap: 24px;
+}
+.list-items{
+    font-size: 20px;
+}
+.theme_gap_mb{
+  margin-bottom: 24px;   
+}
+.btn-primary, button{
+    max-width: 200px;
+   font-size: 16px;
+    height: 55px;
+} 
+.form-controls, input, textarea, select{
+  height: 55px;
+  font-size: 16px;
+}  
+.theme_radius{
+  border-radius:50px;
+}     
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){
+.section_padding{
+    padding: 90px 0;
+}
+.headingLarge{
+    font-size: 40px;
+    margin:0 0 24px;
+}  
+.headingH1, h1{
+    font-size: 55px;
+}     
+.headingH2, h2{
+   font-size: 30px;
+   margin: 0 0 24px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 20px;
+    margin:0 0 8px;
+}
+.headingH4, h4{
+    font-size: 18px;
+    margin:0 0 20px;
+}
+.headingH5, h5{
+   font-size: 15px;
+   margin: 0 0 20px; 
+}
+.headingH6, h6{
+    font-size: 13px;
+    margin:0 0 14px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 16px;
+    margin: 0 0 24px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.blockquote_txt, blockquote{
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.list-items, li{
+    font-size: 16px;
+}
+.btn-groups{
+    gap: 24px;
+}
+.form-bx form{
+    gap: 24px;
+}
+.theme_gap_mb{
+  margin-bottom: 24px;   
+}
+.btn-primary, button{
+    max-width: 180px;
+    font-size: 16px;
+    height: 45px;
+}
+.form-controls, input, textarea, select{
+  height: 45px;
+  font-size: 16px;
+} 
+.theme_radius{
+  border-radius:50px;
+}      
+}
+/**--mini desktop Screen size--**/
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+.section_padding{
+    padding: 80px 0;
+} 
+.headingLarge{
+    font-size: 36px;
+    margin:0 0 26px;
+}  
+.headingH1, h1{
+    font-size: 50px;
+}    
+.headingH2, h2{
+   font-size: 28px;
+   margin: 0 0 20px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 19px;
+    margin:0 0 8px;
+}
+.headingH4, h4{
+    font-size: 16px;
+    margin:0 0 18px;
+}
+.headingH5, h5{
+   font-size: 14px;
+   margin: 0 0 16px; 
+}
+.headingH6, h6{
+    font-size: 12px;
+    margin:0 0 12px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 16px;
+    margin: 0 0 24px;
+}
+.paragraph_p4{
+    font-size: 14px;
+}
+.blockquote_txt, blockquote{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.list-items, li{
+    font-size: 15px;
+}
+.btn-groups{
+    gap: 22px;
+}
+.form-bx form{
+    gap: 22px;
+}
+.theme_gap_mb{
+   margin-bottom: 22px;   
+}
+.btn-primary, button{
+    max-width: 160px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 14px;
+} 
+.form-controls, input, textarea, select{
+  height: 40px;
+  font-size: 14px;
+}
+.theme_radius{
+  border-radius:30px;
+} 
+}
+
+
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+.section_padding{
+    padding: 72px 0;
+} 
+.headingLarge{
+    font-size: 30px;
+    margin:0 0 21px;
+} 
+.headingH1, h1{
+    font-size: 45px;
+}   
+.headingH2, h2{
+   font-size: 28px;
+   margin: 0 0 16px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 15px;
+    margin:0 0 12px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 12px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 12px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 23px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.blockquote_txt, blockquote{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.list-items, li{
+    font-size: 13px;
+}
+.btn-groups{
+    gap: 18px;
+}
+.form-bx form{
+    gap: 18px;
+}
+.theme_gap_mb{
+   margin-bottom: 18px;   
+}
+.btn-primary, button{
+    max-width: 130px;
+    font-size: 12px;
+    height: 34px;
+} 
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:50px;
+}  
+}
+
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+.section_padding{
+    padding: 72px 0;
+} 
+.headingLarge{
+    font-size: 30px;
+    margin:0 0 21px;
+}  
+.headingH1, h1{
+    font-size: 45px;
+}   
+.headingH2, h2{
+   font-size: 28px;
+   margin: 0 0 16px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 15px;
+    margin:0 0 12px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 12px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 12px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 23px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.blockquote_txt, blockquote{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.btn-groups{
+    gap: 16px;
+}
+.form-bx form{
+    gap: 16px;
+}
+.theme_gap_mb{
+   margin-bottom: 16px;   
+}
+.btn-primary, button{
+    max-width: 130px;
+    font-size: 12px;
+    height: 34px;
+}  
+.list-items, li{
+    font-size: 13px;
+}  
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:30px;
+} 
+}
+
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+.section_padding{
+    padding: 72px 0;
+}   
+.headingLarge{
+    font-size: 30px;
+    margin:0 0 15px;
+} 
+.headingH1, h1{
+    font-size: 45px;
+} 
+.headingH2, h2{
+   font-size: 28px;
+   margin: 0 0 16px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 15px;
+    margin:0 0 12px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 12px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 12px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.list-items, li{
+    font-size: 13px;
+}
+.blockquote_txt, blockquote{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.btn-groups{
+    gap: 18px;
+}
+.form-bx form{
+    gap: 18px;
+}
+.theme_gap_mb{
+   margin-bottom: 18px;   
+}
+.btn-primary, button{
+    max-width: 130px;
+    font-size: 12px;
+    height: 34px; 
+}
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:30px;
+}
+}
+
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 700px) and (max-width:999px) /*and (min-height: 400px) and (max-height:414px)*/ and (orientation: landscape){
+ .section_padding{
+    padding: 72px 0;
+} 
+.headingLarge{
+    font-size: 30px;
+    margin:0 0 21px;
+}  
+.headingH1, h1{
+    font-size: 45px;
+}   
+.headingH2, h2{
+   font-size: 28px;
+   margin: 0 0 16px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 15px;
+    margin:0 0 12px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 12px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 12px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 23px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.list-items, li{
+    font-size: 13px;
+}
+.blockquote_txt, blockquote{
+    font-size: 13px;
+    margin-bottom: 29px;
+}
+.btn-groups{
+    gap: 16px;
+}
+.form-bx form{
+    gap: 16px;
+}
+.theme_gap_mb{
+   margin-bottom: 16px;   
+}
+.btn-primary, button{
+    max-width: 130px;
+    font-size: 12px;
+    height: 34px;
+}
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:30px;
+}
+}
+
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+.section_padding{
+    padding: 50px 0;
+}  
+.headingLarge{
+    font-size: 26px;
+    margin:0 0 15px;
+} 
+.headingH1, h1{
+    font-size: 35px;
+}  
+.headingH2, h2{
+   font-size: 24px;
+   margin: 0 0 14px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 14px;
+    margin:0 0 10px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 10px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 10px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.list-items, p{
+    font-size: 12px;
+}
+.blockquote_txt, blockquote{
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+.btn-groups{
+    gap: 16px;
+}
+.form-bx form{
+    gap: 16px;
+}
+.theme_gap_mb{
+   margin-bottom: 16px;   
+}
+.btn-primary, button{
+    max-width: 110px;
+    font-size: 12px;
+    height: 34px; 
+}
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:30px;
+}
+}
+
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:699px) /*and (min-height: 300px) and (max-height:370px) */and (orientation: landscape){
+.section_padding{
+    padding: 50px 0;
+}
+.headingLarge{
+    font-size: 38px;
+    margin:0 0 14px;
+} 
+.headingH1, h1{
+    font-size: 35px;
+}      
+.headingH2, h2{
+   font-size: 24px;
+   margin: 0 0 14px;
+   font-weight: 600;
+}
+.headingH3, h3{
+    font-size: 16px;
+    margin:0 0 6px;
+}
+.headingH4, h4{
+    font-size: 14px;
+    margin:0 0 10px;
+}
+.headingH5, h5{
+   font-size: 12px;
+   margin: 0 0 10px; 
+}
+.headingH6, h6{
+    font-size: 11px;
+    margin:0 0 10px;
+}
+.paragraph_p2, p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+.paragraph_p3{
+    font-size: 14px;
+    margin: 0 0 23px;
+}
+.paragraph_p4{
+    font-size: 12px;
+}
+.list-items, li{
+    font-size: 13px;
+}
+.blockquote_txt, blockquote{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.btn-groups{
+    gap: 16px;
+}
+.form-bx form{
+    gap: 16px;
+}
+.theme_gap_mb{
+   margin-bottom: 16px;   
+}
+.btn-primary. button{
+    max-width: 110px;
+    font-size: 12px;
+    height: 34px;
+}
+.form-controls, input, textarea, select{
+  height: 34px;
+  font-size: 12px;
+} 
+.theme_radius{
+  border-radius:30px;
+}
+}
+
+
+.inner_cover_full{
+    height: 100vh;
+}

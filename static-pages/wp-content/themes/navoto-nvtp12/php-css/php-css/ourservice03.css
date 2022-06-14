@@ -1,0 +1,337 @@
+
+/**============================Our Service Block 3===============================**/
+section#ourservice_block3{
+	 background-color: var(--color-white);
+}
+section#ourservice_block3 .hdng_header h5.headingH5{
+    color: var(--color-code07);
+    text-transform: capitalize;
+}
+section#ourservice_block3 .hdng_header h2.headingH2{
+    color: var(--color-code07);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    color: var(--color-code07);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+	color: var(--color-code07);
+    margin-bottom: 21px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    color: var(--color-code07);
+    max-width: 90%;
+    margin: auto;
+}
+section#ourservice_block3 .content_bx{
+    background-color: var(--color-white);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding:77px 72px 66px;
+    transition: all 0.6s;
+    height: 100%;
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+}
+section#ourservice_block3 .content_bx:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.15);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 116px;
+    height: 116px;
+    margin: 0 auto 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#ourservice_block3 .content_bx .service-pic img{
+    width: 100%;
+    height: auto;
+}
+
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 62px 50px 45px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 27px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 85%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 15px;
+}
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 62px 50px 45px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 27px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 90%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 15px;
+}
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 45px 40px 45px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 27px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 15px;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 45px 40px 45px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 12px;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 40px 20px 40px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 12px;
+}    
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 40px 20px 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+} 
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+} 
+section#ourservice_block3 .content_bx:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+} 
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 30px 15px 30px;
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+} 
+section#ourservice_block3 .content_bx:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+} 
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+} 
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 38px 15px 38px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx:hover{
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 65%;
+    margin: auto;
+} 
+section#ourservice_block3 .row > .col-md-4 {
+   margin-bottom: 18px;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 700px) and (max-width:940px) and (orientation: landscape){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 70%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 38px 15px 38px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 100%;
+    margin: auto;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+}
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 34px 10px 34px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+section#ourservice_block3 .content_bx:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 85%;
+    margin: auto;
+} 
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+}
+section#ourservice_block3 .row > .col-md-4 {
+   margin-bottom: 16px;
+}
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:699px) and (orientation: landscape){
+section#ourservice_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourservice_block3 .content_bx {
+    padding: 38px 15px 38px;
+}
+section#ourservice_block3 .content_bx .service-pic {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx p.paragraph_p3{
+    max-width: 90%;
+    margin: auto;
+} 
+section#ourservice_block3 .row > .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 16px;
+}
+section#ourservice_block3 .caption_bx h4.headingH4{
+    margin-bottom: 8px;
+}
+}
+/**==========================end Our Service Block 3===============================**/

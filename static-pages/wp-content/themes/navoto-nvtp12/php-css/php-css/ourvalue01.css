@@ -1,0 +1,312 @@
+
+/**============================Our Value Block 1===============================**/
+section#ourvalue_block1{
+	 background-color: var(--color-white);
+}
+section#ourvalue_block1 h2.headingH2, section#ourvalue_block1 h5.headingH5, section#ourvalue_block1 a{
+    font-family: var(--primary-family);
+}
+section#ourvalue_block1 h2.headingH2{
+    color: var(--color-code07);
+    font-weight: bold;
+}
+section#ourvalue_block1 h2.headingH2 span{
+    display: block;
+}
+section#ourvalue_block1 h5.headingH5{
+    color: var(--color-code07);
+    font-weight: 700;
+}
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    color: var(--color-code07);
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    text-align: center;
+    margin-bottom: 48px;
+    transition: all 0.6s;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 44px;
+    overflow: hidden;  
+    transition: all 0.6s;
+}
+section#ourvalue_block1 .ourvalue_bx:hover .ourvalue_bxIcon{
+    background-color: var(--color-code07);
+}
+section#ourvalue_block1 .ourvalue_bx:hover img{
+    transform: scale(1.1);
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon img{
+    width: 45%;
+    margin: auto;
+    transition: 0.5s all ease-in-out;
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor01{
+    background-color: var(--color-code20);
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor02{
+    background-color: var(--color-code21);
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor03{
+    background-color: var(--color-code22);
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor04{
+    background-color: var(--color-code23);
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor05{
+    background-color: var(--color-code24);
+}
+section#ourvalue_block1 .ourvalue_bx .bgColor06{
+    background-color: var(--color-code25);
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    color: var(--color-code07);
+    margin-bottom: 20px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    color: var(--color-code07);
+    font-weight: 400;
+    max-width: 80%;
+    margin:0 auto 0;
+}
+
+
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 32px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 228px;
+    height: 228px;
+    margin-bottom: 35px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 22px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 80%;
+}
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 32px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 20px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 80%;
+}
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 24px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 26px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 80%;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 24px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 15px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 80%;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 24px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 12px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 80%;
+}
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 11px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 16px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 10px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 11px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 800px) and (max-width:940px) and (orientation: landscape){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 11px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 16px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 11px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:799px) and (orientation: landscape){
+section#ourvalue_block1 .hdng_header p.paragraph_p2{
+    max-width: 80%;
+}
+section#ourvalue_block1 .ourvalue_bx{
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx .ourvalue_bxIcon{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 18px;
+}
+section#ourvalue_block1 .ourvalue_bx h3.headingH3{
+    margin-bottom: 11px;
+}
+section#ourvalue_block1 .ourvalue_bx p.paragraph_p3{
+    max-width: 90%;
+}
+section#ourvalue_block1 .row.ourvaluepic_row > div {
+    flex: 1 1 50%;
+}
+}
+/**==========================end Our Value Block 1===============================**/

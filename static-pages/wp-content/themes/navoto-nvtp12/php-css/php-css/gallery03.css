@@ -1,0 +1,148 @@
+
+/**============================gallery Block 3===============================**/
+section#gallery_block3{
+	 background-color: var(--color-white);
+}
+section#gallery_block3 .hdng_header h2.headingH2{
+    color: var(--color-code07);
+    font-weight: bold;
+    font-family: var(--primary-family);
+}
+section#gallery_block3 .hdng_header h5.headingH5{
+    color: var(--color-code07);
+    font-weight: 700;
+    font-family: var(--primary-family);
+}
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    color: var(--color-code07);
+    max-width: 75%;
+    font-family: var(--primary-family);
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#gallery_block3 button.glide__arrow{
+    box-shadow: none;
+    border: none;
+    font-size: 50px;
+    text-shadow: none;
+}
+section#gallery_block3 button.glide__arrow i{
+    color: var(--color-code07);
+}
+section#gallery_block3 .gallery03_slider{
+    position: relative;
+}
+section#gallery_block3 button.glide__arrow.glide__arrow--right {
+    right: -12px;
+}
+section#gallery_block3 button.glide__arrow.glide__arrow--left {
+    left: -12px;
+}
+
+
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 45px;
+}
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 45px;
+} 
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 38px;
+} 
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 38px;
+}   
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 38px;
+}   
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 33px;
+} 
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 33px;
+} 
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 30px;
+} 
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 700px) and (max-width:999px) and (orientation: landscape){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 26px;
+} 
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 100%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 25px;
+} 
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:699px) and (orientation: landscape){
+section#gallery_block3 .hdng_header p.paragraph_p2{
+    max-width: 75%;
+}
+section#gallery_block3 button.glide__arrow{
+    font-size: 20px;
+}
+}
+/**==========================end gallery Block 3===============================**/

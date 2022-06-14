@@ -1,0 +1,300 @@
+
+/**============================Our Product block 1===============================**/
+section#ourproduct_block1{
+    background-color: var(--color-white);
+}
+section#ourproduct_block1 .hdng_header h5.headingH5{
+    color: var(--color-code07);
+}
+section#ourproduct_block1 .hdng_header h2.headingH2{
+    color: var(--color-code07);
+    font-weight: 700;
+}
+section#ourproduct_block1 .hdng_header h2.headingH2 span {
+    display: block;
+}
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    color: var(--color-code07);
+    font-weight: 600;
+}
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 48px;
+    border-radius: 12px;
+}
+section#ourproduct_block1 article.section_area .btn-primary:hover{
+    background-color: inherit;
+    border:2px solid var(--color-code07);
+    color: var(--color-code07);
+}
+section#ourproduct_block1 .hdng_header h2.headingH2 {
+    max-width: 100%;
+}
+section#ourproduct_block1 .pd_lgallery{
+ padding-left: 192px;
+}
+section#ourproduct_block1 .section_ul_listing ul{
+    list-style-type: none;
+    padding: 0;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   color: var(--color-code08);
+   margin-bottom: 21px; 
+   display: flex;
+   align-items: center;
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 18px;
+    font-size: 24px;
+    color: var(--color-black);
+}
+
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    width: 299px;
+}
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 144px;
+}
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 40px;
+    border-radius: 8px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 15px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 16px;
+    font-size: 20px;
+}
+
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 35px;
+    border-radius: 8px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 15px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 13px;
+    font-size: 18px;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 164px;
+}
+
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 35px;
+    border-radius: 8px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 15px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 13px;
+    font-size: 18px;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 155px;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 25px;
+    border-radius: 8px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 15px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 122px;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 6px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 15px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 85px;
+}   
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 50px;
+}  
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (min-height: 1000px){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+   font-size: 14px;
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    max-width: 100%;
+    margin-bottom: 38px;
+}
+section#ourproduct_block1 article.section_area > * {
+    flex: 1 1 auto;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 16px;
+}
+section#ourproduct_block1 .row {
+    flex-direction: column-reverse;
+    gap: 32px;
+}
+section#ourproduct_block1 .row > div{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 9px;
+}
+section#ourproduct_block1 .row {
+    flex-direction: column-reverse;
+    gap: 32px;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 800px) and (max-width:899px) and (orientation: landscape){
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 10px!important;
+}
+}
+@media only screen and (min-width: 800px) and (max-width:900px) and (orientation: landscape){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 80px;
+}
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 8px;
+}
+section#ourproduct_block1 .row {
+    flex-direction: column-reverse;
+    gap: 32px;
+}
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:799px) and (orientation: landscape){
+section#ourproduct_block1 article.section_area .btn-primary{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+section#ourproduct_block1 .section_ul_listing ul li{
+   margin-bottom: 12px; 
+}
+section#ourproduct_block1 .section_ul_listing ul li i{
+    padding-right: 11px;
+    font-size: 14px;
+}
+
+section#ourproduct_block1 article.section_area p.paragraph_p2{
+    max-width: 100%;
+}
+section#ourproduct_block1 .pd_lgallery {
+    padding-left: 8px;
+}
+section#ourproduct_block1 .row > div{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+}
+/**========================End Our Product block 1===============================**/
+
+
+
+
+

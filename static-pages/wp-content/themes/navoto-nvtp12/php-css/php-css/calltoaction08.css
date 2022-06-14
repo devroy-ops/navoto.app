@@ -1,0 +1,439 @@
+
+/**============================call to action Block 08===============================**/
+section#calltoaction_block8{
+	 background-color: var(--color-white);
+     position: relative;
+}
+section#calltoaction_block8 picture.profile-pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+section#calltoaction_block8 picture.profile-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section#calltoaction_block8 h2.headingH2, section#calltoaction_block8 h5.headingH5, section#calltoaction_block8 a{
+    font-family: var(--primary-family);
+}
+section#calltoaction_block8 h5.headingH5{
+    color: var(--color-code07);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+section#calltoaction_block8 h2.headingH2{
+    color: var(--color-code07);
+    font-weight: bold;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    color: var(--color-code07);
+    max-width: 92%;
+    font-weight: 600;
+}
+section#calltoaction_block8 button.btn-primary.outline-primary{
+    color: var(--color-code07);
+    border-color: var(--color-code07);
+}
+section#calltoaction_block8 .form-bx{
+    background-color: var(--color-code05); 
+    max-width: 792px;
+    padding: 80px 120px;
+    margin-right: 0;
+    margin-left: auto;
+}
+section#calltoaction_block8 .form-bx h3.headingH3{
+    color: var(--color-code07);
+    font-weight: 600;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    color: var(--color-code07);
+    font-weight: 400;
+    margin-bottom: 52px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 20px;
+    color: var(--color-code07);
+}
+section#calltoaction_block8 .form-bx button{
+    transition: all 0.6s;
+}
+section#calltoaction_block8 .form-bx button:hover{
+    color: var(--color-code07);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-code07);    
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 186px;
+    margin-bottom: 70px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/**============================start media query=============================**/
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+section#calltoaction_block8 .btn-primary{
+    width: 307px;
+}  
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 92%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 608px;
+    padding: 68px 95px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 24px;
+    padding: 20px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 186px;
+    margin-bottom: 60px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 15%;
+}
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 92%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 608px;
+    padding: 68px 95px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 24px;
+    padding: 20px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 186px;
+    margin-bottom: 60px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 26%;
+}
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 92%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 85%;
+    padding: 48px 65px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 156px;
+    margin-bottom: 40px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 26%;
+}
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 92%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 85%;
+    padding: 40px 60px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 156px;
+    margin-bottom: 40px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 28%;
+}
+}
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 92%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 85%;
+    padding: 40px 60px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 156px;
+    margin-bottom: 40px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 28%;
+}
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#calltoaction_block8{
+    background-color: var(--color-code06);
+}
+section#calltoaction_block8 picture.profile-pic{
+    display: none;
+}
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 85%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 44px 74px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 16px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 81px;
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**--Ipad Screen size--**/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+section#calltoaction_block8{
+    background-color: var(--color-code06);
+}
+section#calltoaction_block8 picture.profile-pic{
+    display: none;
+}
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 85%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 44px 74px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 16px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 81px;
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 85%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 39px 67px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 16px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 81px;
+    margin-bottom: 36px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 700px) and (max-width:940px) and (orientation: landscape){
+section#calltoaction_block8{
+    background-color: var(--color-code06);
+}
+section#calltoaction_block8 picture.profile-pic{
+    display: none;
+}
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 85%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 44px 74px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 16px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 81px;
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 100%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 30px 30px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 25px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 15px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 71px;
+    margin-bottom: 30px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**------ Mobile moto g landscape Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:699px) and (orientation: landscape){
+section#calltoaction_block8{
+    background-color: var(--color-code06);
+}
+section#calltoaction_block8 picture.profile-pic{
+    display: none;
+}
+section#calltoaction_block8 .container > .row {
+    flex-direction: column-reverse;
+}
+section#calltoaction_block8 .container > .row > div{
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+section#calltoaction_block8 p.paragraph_p2{
+    max-width: 85%;
+}
+section#calltoaction_block8 .form-bx{
+    max-width: 100%;
+    padding: 44px 64px;
+    margin-top: 40px;
+}
+section#calltoaction_block8 .form-bx h6.headingH6{
+    margin-bottom: 28px;
+}
+section#calltoaction_block8 .form-bx .form-controls{
+    margin-bottom: 16px;
+    padding:8px 10px;
+}
+section#calltoaction_block8 .form-bx textarea.form-controls{
+    height: 81px;
+    margin-bottom: 38px;
+}
+section#calltoaction_block8 .clltacbx{
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+/**==========================end call to action Block 08===============================**/

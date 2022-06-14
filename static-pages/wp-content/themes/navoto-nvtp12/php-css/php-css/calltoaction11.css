@@ -1,0 +1,146 @@
+
+/**============================block 11 call to action===============================**/
+section#callaction_block11{
+    background-color: var(--color-code06);
+    position: relative;
+}
+section#aboutus_block01 .hdng_header h5.headingH5{
+    color: var(--color-code07);
+}
+section#aboutus_block01 .hdng_header h2.headingH2{
+    color: var(--color-code07);
+}
+section#callaction_block11 article.section_area p.paragraph_p2{
+    color: var(--color-code07);
+}
+section#callaction_block11 article.section_area .btn-groups{
+    display: inline-flex;
+}
+section#callaction_block11 article.section_area .btn-primary:first-child{
+    width: 270px;
+}
+section#callaction_block11 article.section_area .btn-primary:first-child:hover{
+    background-color: inherit;
+    border:2px solid var(--color-code07);
+    color: var(--color-code07);
+}
+section#callaction_block11 picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+section#callaction_block11 picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section#callaction_block11 > .container{
+    position: relative;
+}
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/**============================start media query=============================**/
+@media only screen and (min-width: 1081px) and (max-width: 1299px){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 85%;
+}      
+}
+/**--MacBook Pro 13-inch Screen size--**/
+@media only screen and (min-width: 1300px) and (max-width: 1499px){    
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 85%;
+}   
+}
+/**--MacBook 16-inch Screen size--**/
+@media only screen and (min-width: 1500px) and (max-width: 1699px){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 80%;
+}    
+}
+/**--MacBook Pro 16-inch Screen size--**/
+@media only screen and (min-width: 1700px) and (max-width: 1919px){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 76%;
+}
+}
+/**--MacBook Pro FHD  Screen size--**/
+@media only screen and (min-width: 1920px) and (max-width: 2499px){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 86%;
+}
+}
+/**--MacBook Pro 13.3-inch Screen size--**/
+@media only screen and (min-width: 2500px){
+  
+}
+/**--Ipad pro portrait Screen size--**/
+@media only screen and (min-width: 1024px) and (max-width: 1080px){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 90%;
+}
+}
+
+/**------ Mobile iPhone 11 Pro Max Portrait Screen size------**/
+@media only screen and (min-width: 400px) and (max-width:767px) and (orientation: portrait){
+section#callaction_block11{
+    background-color: var(--color-white);
+} 
+section#callaction_block11.section_padding{
+    padding: 0 0 72px;
+}  
+section#callaction_block11 article.section_area p.paragraph_p2{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 96%;
+}
+
+section#callaction_block11 picture{
+    position: static;
+    display: block;
+    height: 328px;
+    margin-bottom: 38px;
+}
+}
+/**------ Mobile iPhone 11 Pro Max landscape Screen size------**/
+@media only screen and (min-width: 800px) and (max-width:900px) and (orientation: landscape){
+section#callaction_block11 article.section_area p.paragraph_p2 {
+    max-width: 90%;
+}
+}
+/**------ Mobile moto g Portrait Screen size------**/
+@media only screen and (min-width: 260px) and (max-width:399px) and (orientation: portrait){
+section#callaction_block11{
+    background-color: var(--color-white);
+} 
+section#callaction_block11.section_padding{
+    padding: 0 0 50px;
+}  
+section#callaction_block11 article.section_area p.paragraph_p2{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 96%;
+}
+section#callaction_block11 picture{
+    position: static;
+    display: block;
+    height: 250px;
+    margin-bottom: 38px;
+}
+}
+
+/**========================End block 11 call to action===============================**/
